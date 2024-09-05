@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+    <script src="https://kit.fontawesome.com/6407209138.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Skill-Heroes</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-div"></div>
+        <div><img src="Media-assets/logo/logo.png" alt=""></div>
+        <div><a href=""><i class="fa-solid fa-cart-shopping"></i></a></div>
+    </header>
+    <article class="article-main">
+        <div onclick="style.display='none'" id="notificatie" class="notificatie"><i class="fa-solid fa-check"></i></div>
+        <section class="main-product">
+            <figure class="product-block-schoen"><img id="image" src="Media-assets/products/schoen-goud.png" alt=""></figure>
+        </section>
+        <section class="main-info">
+            <figure class="info-block">
+                <div class="block-header">
+                    <p id="Orange">Schoen <span id="kleur">Goud</span></p>
+                </div>
+                <div class="block-main">
+                    <p id="Orange">Prijs</p>
+                    <p id="Prijs">$<span id="prijs">23.05</span></p>
+                </div>
+                <div class="block-main">
+                    <p id="Orange">Kleuren</p>
+                    <div class="block-kleuren">
+                        <button onclick="document.getElementById('prijs').innerText = '20,05';document.getElementById('kleur').innerText = 'Blauw'; document.getElementById('image').src='Media-assets/products/schoen-blauw.png'" id="Blauw" class="kleuren-squares"></button>
+                        <button onclick="document.getElementById('prijs').innerText = '23,05';document.getElementById('kleur').innerText = 'Goud'; document.getElementById('image').src='Media-assets/products/schoen-goud.png'" id="Goud" class="kleuren-squares"></button>
+                        <button onclick="document.getElementById('prijs').innerText = '20,05';document.getElementById('kleur').innerText = 'Rood'; document.getElementById('image').src='Media-assets/products/schoen-rood.png'" id="Rood" class="kleuren-squares"></button>
+                        <button onclick="document.getElementById('prijs').innerText = '22,05';document.getElementById('kleur').innerText = 'Zilver'; document.getElementById('image').src='Media-assets/products/schoen-zilver.png'" id="Zilver" class="kleuren-squares"></button>
+                        <button onclick="document.getElementById('prijs').innerText = '20,05';document.getElementById('kleur').innerText = 'Wit'; document.getElementById('image').src='Media-assets/products/schoen.png'" id="Wit" class="kleuren-squares"></button>
+                    </div>
+                </div>
+                <p onclick="document.getElementById('notificatie').style.display = 'block';" class="bestelknop">Bestellen</p>
+                <div class="block-main">
+                    <p id="Orange">Andere producten</p>
+                    <div class="block-kleuren">
+                        <a href="index pet.html"><img src="Media-assets/products/pet.png" alt=""></a>
+                        <a href="index skateboard.html"><img class="draai" src="Media-assets/products/skateboard.png" alt=""></a>
+                    </div>
+                </div>
+            </figure>
+        </section>
+    </article>
+
+
+    <footer class="footer"> @ 2024 KingFlipKings</footer>
+</body>
+</html>

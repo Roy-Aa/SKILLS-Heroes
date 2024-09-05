@@ -1,0 +1,258 @@
+*,*::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+  
+html {
+  font-size: 62.5%;
+}
+  
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Header */
+
+.header{
+    width: 100%;
+    height: 10rem;
+    background: #353531;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 5rem 0rem 5rem;
+}
+
+.header-div{
+    height: 100%;
+    width: 2.7rem;
+}
+
+.header > div > img{
+    width: 7rem;
+}
+
+.fa-cart-shopping{
+    color: #ec4e20;
+    scale: 2.3;
+}
+
+
+/* Header */
+
+/* Main */
+
+.article-main{
+    width: 100%;
+    height: 71.9rem;
+    background: #ec4e20;
+    display: flex;
+    position: relative;
+}
+
+.main-product{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-block-schoen{
+    width: 50%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #353531;
+    border-radius: 2rem;
+}
+
+.product-block-schoen > img{
+    transition: 1s;
+}
+
+.product-block-schoen > img:hover{
+    rotate: 270deg;
+}
+
+.product-block-pet{
+    width: 50%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #353531;
+    border-radius: 2rem;
+}
+
+.product-block-pet > img{
+    transition: 1s;
+}
+
+.product-block-pet > img:hover{
+    rotate: 270deg;
+}
+
+.product-block-skateboard{
+    width: 50%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #353531;
+    border-radius: 2rem;
+}
+
+.product-block-skateboard > img{
+    rotate: -90deg;
+    transition: 1s;
+}
+
+.product-block-skateboard > img:hover{
+    rotate: 270deg;
+}
+
+.main-info{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-block{
+    width: 70%;
+    height: 80%;
+    background: #353531;
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+.block-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block-main{
+    width: 100%;
+    height: 20%;
+}
+
+.block-kleuren{
+    display: flex;
+    gap: 2rem;
+}
+
+.kleuren-squares{
+    width: 2vw;
+    height: 2vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.2rem;
+}
+
+.block-kleuren > a{
+    width: 5vw;
+    height: 5vw;
+    background: #ec4e20;
+    border-radius: 0.2rem;
+}
+
+.block-kleuren > a > img{
+    width: 5vw;
+    height: 5vw;
+}
+
+.fa-check{
+    scale: 1.5;
+}
+
+.bestelknop{
+    color: #353531;
+    background: #ec4e20;
+    display: inline-block;
+    width: 14rem;
+    height: 4rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+    text-decoration: none;
+}
+
+.notificatie{
+    width: 4vw;
+    height: 4vw;
+    background: #353531;
+    position: absolute;
+    top: 40%;
+    left: 47%;
+    z-index: 0;
+    display: none;
+    border-radius: 2rem;
+    padding: 3rem;
+}
+
+.notificatie > i{
+    color: #ec4e20;
+    scale: 5;
+}
+
+.draai{
+    rotate: -90deg;
+}
+
+#Orange{
+    font-size: 2vw;
+    color: #ec4e20;
+}
+
+#Prijs{
+    font-size: 2vw;
+    color: white;
+}
+
+#Blauw{
+    background: blue;
+}
+
+#Goud{
+    background: goldenrod;
+}
+
+#Rood{
+    background: red;
+}
+
+#Zilver{
+    background: silver;
+}
+
+#Wit{
+    background: white;
+}
+
+/* Main */
+
+/* Footer */
+
+.footer{
+    width: 100%;
+    height: 10rem;
+    background: #353531;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ec4e20;
+    font-size: 1vw;
+}
+
+/* Footer */
